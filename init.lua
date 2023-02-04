@@ -2,11 +2,6 @@
 local modname = minetest.get_current_modname()
 local S = minetest.get_translator(modname)
 
---Settings
-web3 = {}
-local modpath = minetest.get_modpath(modname)
-assert(loadfile(modpath.. "/settings.lua"))(modpath)
-
 --Follow
 followlist = {}
 backtracklist = {}
